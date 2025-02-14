@@ -1,0 +1,26 @@
+.container {
+    max-width:70vh;
+    margin: 0 auto;
+    
+    border:1px solid red;
+}
+.calc {
+    display: flex;
+    flex-direction: column;
+}
+.calc__submit {
+    height: 50px;
+}
+.calc__btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+.calc__btn{
+    width:24%;
+}
+.calc__plus{
+    background-color: green;
+}
+.calc__minus{
+    background-color: red;
+}
