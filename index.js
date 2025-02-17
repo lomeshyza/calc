@@ -1,3 +1,5 @@
+
+
 const resultElement=document.getElementById('result')
 const input1 =document.getElementById('input1')
 const input2 =document.getElementById('input2')
@@ -10,16 +12,20 @@ let action='+'
 console.log(action)
 
 plusBtn.onclick = function(){
+  submitBtn.className='btn btn-block btn-outline-success'
   action = '+'
 }
 
 minusBtn.onclick = function(){
+  submitBtn.className='btn btn-block btn-outline-danger'
   action = '-'
 }
 divideBtn.onclick = function(){
+  submitBtn.className='btn btn-block btn-outline-warning'
   action = '/'
   }
 multipleBtn.onclick = function(){
+  submitBtn.className='btn btn-block btn-outline-info'
   action = '*'
   }
 
